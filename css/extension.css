@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+.loginHeading {
+
+}
+.loginForm {
+    display: table-caption;
+}
+.loginForm input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.loginButton {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.homePage {
+   display: none;
+   min-width: 200px;
+}
+.homePage a {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.homePage #namePlaceholder {
+    text-transform: capitalize;
+}
+.contents {
+    display:block;
+}
+.evArtist {
+    font: normal 20px Roboto,arial,sans-serif;
+    font-weight: bold;
+}
+
+.evLocation {
+    font: normal 15px Roboto,arial,sans-serif;
+    font-style: italic;
+}
+
+.eventsDiv {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.eventHeading {
+    font: normal 15px Roboto,arial,sans-serif;
+    font-weight: bold;
+    font-style: underline;
+}

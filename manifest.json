@@ -1,0 +1,47 @@
+{
+	"manifest_version": 2,
+	"name": "Ticker Master App",
+	"description": "Purchase tickets on the go!",
+	"version": "1.1",
+	"browser_action": {
+		"default_icon": "TMActive.png",
+		"default_title": "FAN-TASTIC",
+		"default_popup": "extension.html"
+	},
+	"icons": {
+		"128": "TMActive.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"http://www.google.com/*"
+			],
+			"css": [
+				"css/extension.css"
+			],
+			"js": [
+				"js/extension.js"
+			]
+		}
+	],
+	"permissions": [
+		"background",
+		"notifications",
+		"contextMenus",
+		"tabs",
+		"storage",
+		"unlimitedStorage",
+		"activeTab",
+		"<all_urls>",
+		"http://*/*",
+		"bookmarks",
+		"https://*/*"
+	],
+	"web_accessible_resources": [
+		"img/*.*",
+		"js/*.*",
+		"css/*.*",
+		"*.*",
+		"html/*.*"
+	]
+}
